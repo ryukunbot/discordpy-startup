@@ -17,5 +17,9 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('おはよ')
 
+@bot.command()
+async def おやすみ(ctx):
+    await ctx.send('おやすみ')
+
     
 bot.run(token)
